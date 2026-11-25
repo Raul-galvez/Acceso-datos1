@@ -1,0 +1,7 @@
+Tengo dos clases, Cliente y Pago, que guardan los datos. Cada pago lleva el id del cliente para saber de quién es.
+
+Creé la interfaz Almacenamiento para separar lo que se hace con los datos (leer y escribir) de cómo se guardan. Así el Main no depende del CSV.
+
+AlmacenamientoCSV es la clase que guarda los datos en clientes.csv y pagos.csv, una línea por registro con los campos separados por ";".
+
+En el Main está el menú y las validaciones, que repiten la pregunta hasta que el dato es correcto.

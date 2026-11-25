@@ -1,0 +1,10 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="RA2 - Gasolinera.2 - Main" type="Application" factoryName="Application">
+    <option name="MAIN_CLASS_NAME" value="Main" />
+    <module name="Gasolinera.2-RA2" />
+    <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/RA2-JDBC/Gasolinera.2" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

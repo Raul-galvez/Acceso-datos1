@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="ra2-jdbc-alumnado" target="21" />
+      <module name="ra2-jdbc-alumnado.main" target="21" />
+      <module name="ra2-jdbc-alumnado.test" target="21" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
