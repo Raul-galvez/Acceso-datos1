@@ -5,3 +5,20 @@ Creé la interfaz Almacenamiento para separar lo que se hace con los datos (leer
 AlmacenamientoCSV es la clase que guarda los datos en clientes.csv y pagos.csv, una línea por registro con los campos separados por ";".
 
 En el Main está el menú y las validaciones, que repiten la pregunta hasta que el dato es correcto.
+
+## Fase 1 MySQL: estaciones y su puesta en servicio
+
+Se han añadido las clases de dominio `Estacion`, `ConfiguracionFacturacion`,
+`Surtidor`, `TipoCombustible`, `EstadoServicio`, `AltaEstacion` y
+`GestionEstaciones`, además de `DemostracionEstaciones` (opción 6 del menú).
+Clientes, pagos, CSV y JSON siguen funcionando igual.
+
+- Diseño y reglas: `ESTACIONES.md`.
+- Scripts MySQL: carpeta `sql/`, ejecutar `01_esquema.sql`, `02_triggers.sql`,
+  `03_datos.sql` y, solo para probar, `04_comprobaciones.sql`.
+- Demo Java: `DemostracionEstaciones` o la opción 6 del menú.
+
+La ampliación completa del caso (personal, tienda, proveedores, campañas,
+ventas, devoluciones, incidencias y trigger de precios) está documentada en
+`README.md`, `DISENO_RELACIONAL.md`, `MODELO_JAVA.md` y
+`REGLAS_Y_EVIDENCIAS.md`. La demostración correspondiente es la opción 7.

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Gasolinera.2 - DemostracionEstaciones" type="Application" factoryName="Application">
+    <option name="MAIN_CLASS_NAME" value="DemostracionEstaciones" />
+    <module name="Gasolinera.2-RA2" />
+    <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

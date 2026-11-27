@@ -38,6 +38,8 @@ public class Main {
             System.out.println("3. Buscar clientes");
             System.out.println("4. Procesar un pago de repostaje");
             System.out.println("5. Consultar pagos");
+            System.out.println("6. Demostración de estaciones (Fase 1)");
+            System.out.println("7. Demostración de la ampliación (Fase 1)");
             System.out.println("0. Salir");
             System.out.print("Opción: ");
             String opcion = scanner.nextLine();
@@ -57,6 +59,12 @@ public class Main {
                     break;
                 case "5":
                     consultarPagos(almacenamiento);
+                    break;
+                case "6":
+                    DemostracionEstaciones.ejecutar();
+                    break;
+                case "7":
+                    DemostracionAmpliacion.ejecutar();
                     break;
                 case "0":
                     salir = true;
